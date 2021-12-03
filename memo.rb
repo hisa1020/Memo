@@ -36,13 +36,13 @@ while true
     if mode=="1"
         puts "新規メモを作成します。"
         make_memo
-        elsif mode=="2"
-            puts "既存のメモを編集します。"
-            rewrite_memo
-            elsif mode=="3"
-                puts "アプリを終了します。"
-                break
-                else
-                    puts "エラー"
-                    end
+    elsif mode=="2"
+        puts "既存のメモを編集します。"
+        rewrite_memo
+    elsif mode=="3"
+        puts "アプリを終了します。"
+        break
+    else
+        puts "エラー"
+        end
     end
